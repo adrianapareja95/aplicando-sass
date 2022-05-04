@@ -1,6 +1,6 @@
-@import 'listas';
-@import 'carrusel';
-@import'cont';
-@import 'footer';
-@import 'mixins';
-@import 'condiciones';
+@import 'base/navbar';
+@import 'base/carrusel';
+@import'base/body';
+@import'base/formulario';
+@import 'base/footer';
+@import'componentes/listas';

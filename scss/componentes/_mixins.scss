@@ -22,7 +22,3 @@
 .imagenes {
     @include flexbox(block)
 }
-
-.navbar {
-    @include flexbox(inline)
-}
