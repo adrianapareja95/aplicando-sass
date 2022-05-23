@@ -20,3 +20,27 @@
 .crujir-de-dientes {
     @include condicion(blue)
 }
+
+
+@mixin condicion($color) {
+    background-color: $color;
+
+    @if $color==orange {
+        border-radius: 10pa;
+        padding: 20px 10px;
+    }
+
+    @else {
+        border-radius: 2px;
+        padding: 10px;
+    }
+
+}
+
+.fetal-position {
+    @include condicion(orange)
+}
+
+.crujir-de-dientes {
+    @include condicion(blue)
+}

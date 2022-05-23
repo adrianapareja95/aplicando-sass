@@ -24,23 +24,6 @@ h1 {
         padding-bottom: 1rem;
 
     }
-
-
-}
-
-
-.musica {
-
-    .img-fluid {
-        object-fit: cover;
-        object-position: center;
-        overflow: hidden;
-        height: 71vh;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        box-shadow: 0px 35px 44px -22px rgba(112, 110, 110, 0.72);
-
-    }
 }
 
 .lugares {
@@ -56,19 +39,20 @@ h1 {
 
     .fondo {
         background-color: rgb(246, 245, 245);
-        padding-top: 0;
-        padding-bottom: 0;
         margin-top: 1rem;
         margin-bottom: 1rem;
 
         .tama {
-            padding-left: 0;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            padding-top: 2.5rem;
+            padding-bottom: 1rem;
         }
     }
 
     .texto {
-        padding-right: 4rem;
-        padding-left: 2rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
         font-family: Serif;
         font-size: larger;
     }
@@ -100,11 +84,48 @@ h1 {
 
             p {
                 padding-bottom: 1rem;
-                padding-left: 3rem;
-                padding-right: 1rem;
+                padding-left: 2rem;
+                padding-right: 4rem;
                 font-family: serif;
+                font-size: larger;
             }
         }
     }
+}
 
+.musica {
+
+    .img-fluid {
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+        height: 70vh;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 0px 35px 44px -22px rgba(112, 110, 110, 0.72);
+
+    }
+}
+
+.gastronomia {
+
+
+    .img-fluid {
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+        height: 50vh;
+        width: 100%;
+        margin-bottom: 1rem;
+        box-shadow: 0px 35px 44px -22px rgba(26, 26, 26, 0.72);
+
+    }
+
+    p {
+        margin-top: 2rem;
+        font-family: serif;
+        font-size: larger;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
